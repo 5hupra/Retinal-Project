@@ -98,16 +98,3 @@ Ensemble weights optimised via Nelder-Mead on validation set.
 
 This is a research project, not a certified medical device.
 Always consult a qualified ophthalmologist for diagnosis.
-```
-
----
-
-Two things to also add to your `.gitignore` so the model files never accidentally get pushed:
-```
-# Model weights
-backend/models/*.pth
-backend/models/*.pt
-
-# Data
-data/
-*.zip
